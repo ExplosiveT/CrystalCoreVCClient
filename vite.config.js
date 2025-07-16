@@ -33,7 +33,6 @@ const millionPlugins = [svgr({
 }), eslint()];
 millionPlugins.unshift(MillionLint.vite());
 export default defineConfig({
-  base: '/CrystalCoreVCClient/',
   plugins: millionPlugins,
   server: {
     port: 3000,
